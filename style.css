@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    font-family: "poppins", "arial", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF6E0;
+}
+.navegacao-redes-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul.navegacao{
+    list-style: none;
+    display: flex;
+    display: none;
+    gap: 20px;
+    align-items: center;
+}
+.botao-contato{
+    border: none;
+    padding: 10px 20px;
+    background-color: #F3766D;
+    border-radius: 10px;
+    font-family: "fugaz one";
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+
+}
+.apresentacao-container{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.671), #141414a9), url(imagens/Background.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textos-marketing{
+    padding: 20px;
+    
+    color: white;
+    text-align: center;
+}
+.titulo-apresentacao{
+    font-family: "fugaz one", "arial", sans-serif;
+    margin-bottom: 10px;
+}
+.paragrafo-apresentacao{
+    font-family: "poppins", "arial", sans-serif;
+    font-size: 0.9em;
+}
